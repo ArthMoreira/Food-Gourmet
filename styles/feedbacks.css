@@ -1,0 +1,143 @@
+#Testimonials {
+    background-color: var( --color-neutral-0);
+    min-height: calc(110vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 48px;
+    padding: 100px 8%;
+
+}
+
+.Chef img {
+    transition: transform 0.4s ease; 
+}
+
+.Chef img:hover {
+    transform: scale(1.02); 
+}
+
+.testimonials_chef {
+    width: 600px;
+    height: auto;
+}
+
+#Testimonials .section-subtitle {
+    font-size: 3rem;
+}
+
+.testimonials_content {
+    width: 50%;
+
+}
+
+.Feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--color-primary-5);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.feedback-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.feedback-content p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feedback-content p span {
+    color:var(--color-primary-2);
+}
+
+@media only screen and (max-width: 1170px) {
+    #Testimonials {
+       flex-direction: column;
+    
+    }
+
+    #Testimonials .section-subtitle {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+
+    .testimonials_chef {
+        display: none;
+
+    }
+
+    .testimonials_content{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .testimonials_content button {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .section-subtitle {
+        font-size: 28px;
+        text-align: center;
+
+    }
+
+    .testimonials_content {
+        width: 100%;
+        margin-top: 90px;
+        
+    }
+
+    .feedback {
+        flex-direction: column;
+
+    }
+    
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+
+    #Testimonials .section-title {
+        font-size: 28px;
+        color: var(--color-neutral-1);
+    }
+
+    #Testimonials .section-subtitle {
+        font-size: 19.2px;
+        font-weight: 400;
+        color: var(--color-primary-2);
+    }
+
+
+    .testimonials_content {
+        margin-top: 90px;
+    } 
+    
+    .section-subtitle {
+        margin-top: 30px;
+    }
+   
+}

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Gourmet Food</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="header1">
+                <img class="logo" src="icons/Logo.svg" alt="Logo">
+                <p class="logo_title">Gourmet</p>
+            </div>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#Home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Testimonials">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#App">App</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav-list">
+                <li class="nav-item">
+                    <a href="#Home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Testimonials">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#App">App</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="Home">
+                <div class="subtitle">
+                    Praticidade com qualidade
+                    <img src="icons/Subtítulo.svg" alt="Ícone de uma cereja">
+                </div>
+    
+                <div class="Title">
+                    <h1 class="text">
+                        Descubra a experiência
+                        <span>gastronômica</span>
+                        perfeita. Qualidade, sabor e economia em um só lugar!
+                    </h1>
+    
+                    <p class="description"> As melhores ofertas em fast food e restaurantes, criadas para você saborear o que
+                        há de melhor.</p>
+    
+                    <div class="Title_btn">
+                        <a href="#" class="btn-default">
+                            Vamos Começar
+                        </a>
+    
+                        <a href="tel:+021912345678" class="phone_button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            (21) 91234-5678
+                        </a>
+                    </div>
+    
+                    <div class="social-media-botões">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+    
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+    
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+    
+                    </div>
+    
+                </div>
+            
+
+            <div class="banner">
+                <img src="icons/Banner.svg" alt="Imagem principal de um prato com comida">
+            </div>
+
+
+        </section>
+
+        <section id="Services">
+            <div class="points">
+                <img src="icons/Ponto vermelho.svg" alt="ícone vermelho">
+                <img src="icons/Ponto amarelo.svg" alt="ícone amarelo">
+            </div>
+
+            <div class="Text-services">
+                <h1 class="Title-services">Nossos Serviços</h1>
+                <h3 class="Subtitle-services">O que nós <span>oferecemos</span></h3>
+                <h4>A qualidade do produto é nossa prioridade e sempre garantimos segurança até que ele chegue às suas
+                    mãos.</h4>
+            </div>
+
+            <div class="services">
+                <ul class="services__list">
+                    <li class="services-icons">
+                        <img class="requests" src="icons/Pedidos.svg" alt="Pedidos">
+                        <h3 class="list__item">Fácil de pedir</h3>
+                        <span>Você só precisa de alguns passos para pedir comida</span>
+                    </li>
+                    <li class="services-icons">
+                        <img class="requests"  src="icons/Entregador.svg" alt="Entregador">
+                        <h3 class="list__item">Entrega rápida</h3>
+                        <span>Entrega sempre pontual e ainda mais rápida</span>
+                    </li>
+                    <li class="services-icons">
+                        <img class="requests" src="icons/Garçons.svg" alt="Garçons">
+                        <h3 class="list__item">Melhor qualidade</h3>
+                        <span>A qualidade também é nossa prioridade número um.</span>
+                    </li>
+                </ul>
+    
+            </div>
+            
+        </section>
+
+        <section id="Menu">
+            <h2 class="section-title">Menu</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div class="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="icons/Prato1.svg" class="prato-img" alt="Ramem de Frango">
+
+                    <h3 class="dish-title">
+                        Ramem de Frango
+                    </h3>
+
+                    <span class="dish-description">
+                        Cremoso e nutritivo.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$30,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="icons/Prato2.svg" class="prato-img" alt="Misto quente">
+
+                    <h3 class="dish-title">
+                        Misto Quente
+                    </h3>
+
+                    <span class="dish-description">
+                        Leve e delicioso.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(800+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="icons/Prato3.svg" class="prato-img" alt="Salada de frutas">
+
+                    <h3 class="dish-title">
+                        Salada de Frutas
+                    </h3>
+
+                    <span class="dish-description">
+                        Frutada e refrescante.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$23,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="icons/Prato4.svg" class="prato-img" alt="Yakisoba">
+
+                    <h3 class="dish-title">
+                        Yakisoba
+                    </h3>
+
+                    <span class="dish-description">
+                        Rico e satisfatório.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(650+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$31,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Testimonials">
+            <div class="Chef">
+                <img src="icons/Chef.svg" class="testimonials_chef" alt="Chefe de cozinha">
+            </div>
+            
+            <div class="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div class="Feedbacks">
+                    <div class="feedback">
+                        <img src="icons/Elaine.svg" class="feedback-avatar" alt="Cliente Elaine">
+
+                        <div class="feedback-content">
+                            <p>
+                                Elaine
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A comida é deliciosa, com sabores bem equilibrados, os preços são muito justos, a
+                                entrega é super rápida, e o ambiente do restaurante é acolhedor e bem decorado!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="icons/Mathias.svg" class="feedback-avatar" alt="Cliente Mathias">
+
+                        <div class="feedback-content">
+                            <p>
+                                Mathias
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Pratos maravilhosos, bem servidos e com uma ótima apresentação, os preços são
+                                acessíveis, a entrega chegou antes do previsto, e o lugar é perfeito para um jantar
+                                especial!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+
+            </div>
+        </section>
+
+        <section id="App">
+            <div class="app_content">
+                <div class="subtitle_app">
+                    Conheça nosso aplicativo
+                </div>
+
+                <div class="Title">
+                    <h1 class="text">
+                        Comece hoje mesmo com o GourmetGo!
+                    </h1>
+
+                    <p class="description"> Descubra deliciosas opções gastronômicas a qualquer hora e em qualquer lugar,
+                        e receba sua refeição de forma rápida e conveniente.</p>
+                </div>
+
+                <div class="app_button">
+                    <button class="btn-default">
+                        Baixe o app
+                    </button>
+                </div>
+
+                <div class="banner_app">
+                    <img src="icons/App.svg" alt="Imagem da tela de início do app GourmetGo">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <div class="logo">
+                    <img src="icons/Logo.svg" alt="Logo">
+                    <h1>Gourmet</h1>
+                </div>
+
+                <p>Sabores únicos, excelência no preparo e um ambiente pensado para você.</p>
+
+                <div class="social-media-botões">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                </div>
+
+            </div>
+            
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Especialidades</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Novidades</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Menu</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Empresa</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Por que FoodGourmet?</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Seja nosso parceiro</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">FAQ</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Blog</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Suporte</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Conta</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Central de ajuda</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Feedbacks</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Contate-nos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Acessibilidade</a>
+                </li>
+            </ul>
+
+            <div id="footer_contact">
+                <h3>Entre em contato</h3>
+                <li>
+                    <a href="#" class="footer_link">Dúvidas ou feedbacks?</a>
+                </li>
+
+                <p>
+                    Digite seu email e entraremos em contato.
+                </p>
+
+                <div id="input_contact">
+                    <input type="email" id="email" placeholder="Digite seu e-mail">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+
+            </div>
+
+    </footer>
+
+    <footer>
+        <div id="footer_rights">
+            <p class="footer-text"></p>2024 Todos os Direitos Reservados. Arthur Moreira
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>
