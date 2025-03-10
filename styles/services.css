@@ -44,15 +44,7 @@ h4 {
 
 }
 
-.requests1{
-    margin-top: 24px;
-    transition: transform 0.4s ease; 
-
 .requests:hover {
-    transform: scale(1.07); 
-}
-
-.requests1:hover {
     transform: scale(1.07); 
 }
 
