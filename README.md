@@ -33,7 +33,7 @@ Este é um projeto de uma landing page fictícia desenvolvida para um restaurant
 
 Clique no link abaixo para acessar o projeto:
 
-[ Acesse a Landing Page aqui](https://arthmoreira.github.io/Food-Gourmet/)
+[ Acesse a Landing Page aqui](https://food-gourmet.vercel.app/)
 
 ### Visualização da Página
 
