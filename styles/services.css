@@ -48,6 +48,15 @@ h4 {
     transform: scale(1.07); 
 }
 
+.requests1 {
+    transition: transform 0.4s ease; 
+
+}
+
+.requests1:hover {
+    transform: scale(1.07); 
+}
+
 .services__list {
     display: flex;
     justify-content: center; 
